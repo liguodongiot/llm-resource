@@ -12,6 +12,8 @@ LLM全栈优质资源汇总
 原理：
 - [Transformer模型详解（图解最完整版](https://zhuanlan.zhihu.com/p/338817680)
 - [OpenAI ChatGPT（一）：十分钟读懂 Transformer](https://zhuanlan.zhihu.com/p/600773858)
+- [Transformer的结构是什么样的？各个子模块各有什么作用？](https://blog.csdn.net/m0_54929869/article/details/118881804)
+
 
 源码：
 
@@ -43,6 +45,14 @@ LLM全栈优质资源汇总
 ## LLM 压缩
 
 
+### LLM 量化
+
+
+### LLM 剪枝
+
+
+### LLM 蒸馏
+
 
 
 ## LLM 应用
@@ -50,10 +60,29 @@ LLM全栈优质资源汇总
 
 ## AI框架
 
+### PyTorch
 - [PyTorch 源码解读系列](https://zhuanlan.zhihu.com/p/328674159) @ OpenMMLab 团队
 - [[源码解析] PyTorch 分布式](https://juejin.cn/post/7026144707591815175) @ 罗西的思考
+
+### DeepSpeed
+
+
+### Megatron-LM
+
+- []()
+
+### Megatron-DeepSpeed
+
+
+
+
 
 ## 综合
 
 - [通向AGI之路：大型语言模型（LLM）技术精要](https://zhuanlan.zhihu.com/p/597586623)
+- [大语言模型的涌现能力：现象与解释](https://zhuanlan.zhihu.com/p/621438653)
+
+
+
+
 
