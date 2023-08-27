@@ -1,5 +1,8 @@
 # llm-resource
+
 LLM全栈优质资源汇总
+
+> 非常欢迎大家也参与到进来，收集更多优质大模型相关资源。
 
 
 ## LLM 算法
@@ -44,6 +47,10 @@ LLM全栈优质资源汇总
 
 ## LLM 应用
 
+
+## AI框架
+
+- [PyTorch 源码解读系列](https://zhuanlan.zhihu.com/p/328674159) @ OpenMMLab 团队
 
 
 ## 综合
