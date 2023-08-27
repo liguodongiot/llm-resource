@@ -19,3 +19,9 @@ LLM全栈优质资源汇总
 - GPT （一）transformer原理和代码详解：https://zhuanlan.zhihu.com/p/632880248
 - Transformer源码详解（Pytorch版本）：https://zhuanlan.zhihu.com/p/398039366
 - 搞懂Transformer结构，看这篇PyTorch实现就够了: https://zhuanlan.zhihu.com/p/339207092
+
+
+
+
+### GLM 
+- 预训练语言模型：GLM: https://zhuanlan.zhihu.com/p/641499380
