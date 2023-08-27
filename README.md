@@ -45,6 +45,8 @@ LLM全栈优质资源汇总
 ## LLM 压缩
 
 
+- [模型转换、模型压缩、模型加速工具汇总](https://blog.csdn.net/WZZ18191171661/article/details/99700992)
+
 ### LLM 量化
 
 
