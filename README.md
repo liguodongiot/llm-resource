@@ -51,7 +51,7 @@ LLM全栈优质资源汇总
 ## AI框架
 
 - [PyTorch 源码解读系列](https://zhuanlan.zhihu.com/p/328674159) @ OpenMMLab 团队
-
+- [[源码解析] PyTorch 分布式](https://juejin.cn/post/7026144707591815175) @ 罗西的思考
 
 ## 综合
 
