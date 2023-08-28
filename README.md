@@ -52,6 +52,8 @@ LLM全栈优质资源汇总
 
 ### LLM 量化
 
+- [LLM 量化技术小结](https://zhuanlan.zhihu.com/p/651874446)
+
 
 ### LLM 剪枝
 
