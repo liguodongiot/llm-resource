@@ -60,7 +60,7 @@ LLM全栈优质资源汇总
 
 ### LLM 稀疏化
 
-[NLP（八）：大语言模型的稀疏化技术](https://zhuanlan.zhihu.com/p/615399255)
+- [NLP（八）：大语言模型的稀疏化技术](https://zhuanlan.zhihu.com/p/615399255)
 
 ## LLM 应用
 
