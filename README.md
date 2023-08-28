@@ -91,6 +91,8 @@ LLM全栈优质资源汇总
 
 - [通向AGI之路：大型语言模型（LLM）技术精要](https://zhuanlan.zhihu.com/p/597586623)
 - [大语言模型的涌现能力：现象与解释](https://zhuanlan.zhihu.com/p/621438653)
+- [NLP（十八）：LLM 的推理优化技术纵览](https://zhuanlan.zhihu.com/p/642412124)
+
 
 
 
