@@ -46,6 +46,9 @@ LLM全栈优质资源汇总
 
 
 - [模型转换、模型压缩、模型加速工具汇总](https://blog.csdn.net/WZZ18191171661/article/details/99700992)
+- [AI 框架部署方案之模型转换](https://zhuanlan.zhihu.com/p/396781295)
+- [Pytorch 模型转 TensorRT (torch2trt 教程)](https://zhuanlan.zhihu.com/p/570822430)
+
 
 ### LLM 量化
 
@@ -55,7 +58,9 @@ LLM全栈优质资源汇总
 
 ### LLM 蒸馏
 
+### LLM 稀疏化
 
+[NLP（八）：大语言模型的稀疏化技术](https://zhuanlan.zhihu.com/p/615399255)
 
 ## LLM 应用
 
@@ -63,6 +68,7 @@ LLM全栈优质资源汇总
 ## AI框架
 
 ### PyTorch
+
 - [PyTorch 源码解读系列](https://zhuanlan.zhihu.com/p/328674159) @ OpenMMLab 团队
 - [[源码解析] PyTorch 分布式](https://juejin.cn/post/7026144707591815175) @ 罗西的思考
 
