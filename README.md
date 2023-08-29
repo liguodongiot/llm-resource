@@ -5,6 +5,23 @@ LLM全栈优质资源汇总
 > 非常欢迎大家也参与进来，收集更多优质大模型相关资源。
 
 
+## LLM 大模型
+
+
+### 通用大模型
+
+- [百川-7B](https://github.com/baichuan-inc/baichuan-7B)
+
+### 领域大模型
+
+法律：
+- [智海-录问](https://github.com/zhihaiLLM/wisdomInterrogatory)
+- 
+
+
+
+
+
 ## LLM 算法
 
 ### Transformer
