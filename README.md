@@ -11,6 +11,7 @@ LLM全栈优质资源汇总
 ### 通用大模型
 
 - [百川-7B](https://github.com/baichuan-inc/baichuan-7B)
+- [百川-13B](https://github.com/baichuan-inc/Baichuan-13B)
 
 ### 领域大模型
 
