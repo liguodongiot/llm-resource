@@ -5,21 +5,6 @@ LLM全栈优质资源汇总
 > 非常欢迎大家也参与进来，收集更多优质大模型相关资源。
 
 
-## LLM 大模型
-
-
-### 通用大模型
-
-- [Baichuan-7B](https://github.com/baichuan-inc/baichuan-7B)
-- [Baichuan-13B](https://github.com/baichuan-inc/Baichuan-13B)
-- [XVERSE-13B](https://github.com/xverse-ai/XVERSE-13B)
-- 
-
-### 领域大模型
-
-法律：
-- [智海-录问](https://github.com/zhihaiLLM/wisdomInterrogatory)
-- 
 
 
 
