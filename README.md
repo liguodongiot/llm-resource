@@ -10,8 +10,10 @@ LLM全栈优质资源汇总
 
 ### 通用大模型
 
-- [百川-7B](https://github.com/baichuan-inc/baichuan-7B)
-- [百川-13B](https://github.com/baichuan-inc/Baichuan-13B)
+- [Baichuan-7B](https://github.com/baichuan-inc/baichuan-7B)
+- [Baichuan-13B](https://github.com/baichuan-inc/Baichuan-13B)
+- [XVERSE-13B](https://github.com/xverse-ai/XVERSE-13B)
+- 
 
 ### 领域大模型
 
