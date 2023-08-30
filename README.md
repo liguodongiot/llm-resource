@@ -44,6 +44,14 @@ LLM全栈优质资源汇总
 ## LLM 训练
 
 
+- [全网最全-混合精度训练原理](https://zhuanlan.zhihu.com/p/441591808)
+
+
+学习率(warmup, decay)：
+- [模型调优，学习率设置（Warm Up、loss自适应衰减等），batch size调优技巧，基于方差放缩初始化方法](https://blog.csdn.net/sinat_39620217/article/details/130236886)
+- [深度学习模型训练小技巧](https://blog.csdn.net/sgyuanshi/article/details/108394444)
+
+
 ## LLM 推理
 
 
