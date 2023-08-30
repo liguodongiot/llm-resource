@@ -83,6 +83,7 @@ LLM全栈优质资源汇总
 ### DeepSpeed
 
 - [DeepSpeed使用指南(简略版)](https://blog.csdn.net/weixin_43301333/article/details/127237122)
+- [关于Deepspeed的一些总结与心得](https://zhuanlan.zhihu.com/p/650824387)
 
 
 ### Megatron-LM
