@@ -102,6 +102,11 @@ LLM全栈优质资源汇总
 
 
 
+## LLM 测评
+
+- [CLiB中文大模型能力评测榜单](https://github.com/jeinlee1991/chinese-llm-benchmark)
+
+
 
 
 ## 综合
