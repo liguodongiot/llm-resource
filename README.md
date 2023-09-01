@@ -44,7 +44,7 @@ LLM全栈优质资源汇总
 
 ## LLM 训练
 
-
+- [OPT-175B是如何炼成的](https://zhuanlan.zhihu.com/p/622061951)
 - [全网最全-混合精度训练原理](https://zhuanlan.zhihu.com/p/441591808)
 
 
