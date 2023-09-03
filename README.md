@@ -103,7 +103,20 @@ LLM全栈优质资源汇总
 
 ### Megatron-LM
 
-- []()
+- [Megatron-LM 近期的改动](https://zhuanlan.zhihu.com/p/651192295)
+- [深入理解 Megatron-LM（1）基础知识](https://zhuanlan.zhihu.com/p/650234985) @ 简枫
+- [深入理解 Megatron-LM（2）原理介绍](https://zhuanlan.zhihu.com/p/650383289)
+- [[源码解析] 模型并行分布式训练Megatron (1) --- 论文 & 基础](https://juejin.cn/post/7057837676430360584) @ 罗西的思考
+- [[源码解析] 模型并行分布式训练Megatron (2) --- 整体架构](https://juejin.cn/post/7061942798957674504)
+- [[细读经典]Megatron论文和代码详细分析(1)](https://zhuanlan.zhihu.com/p/366906920) @迷途小书僮​
+- [[细读经典]Megatron论文和代码详细分析(2)](https://zhuanlan.zhihu.com/p/388830967)
+
+
+
+
+
+
+
 
 ### Megatron-DeepSpeed
 
