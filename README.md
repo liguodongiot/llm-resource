@@ -94,6 +94,7 @@ LLM全栈优质资源汇总
 - [PyTorch 源码解读系列](https://zhuanlan.zhihu.com/p/328674159) @ OpenMMLab 团队
 - [[源码解析] PyTorch 分布式](https://juejin.cn/post/7026144707591815175) @ 罗西的思考
 - [PyTorch 分布式(18) --- 使用 RPC 的分布式流水线并行](https://juejin.cn/post/7043601075307282462) @ 罗西的思考
+- [【Pytorch】model.train() 和 model.eval() 原理与用法](https://blog.csdn.net/weixin_44211968/article/details/123774649)
 
 ### DeepSpeed
 
