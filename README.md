@@ -142,7 +142,9 @@ LLM全栈优质资源汇总
 ## 基础
 
 - [入门 | 一文概览深度学习中的激活函数](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650732724&idx=4&sn=5230b8bb1811cda38ab97afb417d1613&chksm=871b3ccab06cb5dcdf0bdfadcc7ae85d8ae95588bed0b884a55ba50b76d541771104675fbb3e&scene=21#wechat_redirect)
-- 
+- [NLP的四个范式](https://zhuanlan.zhihu.com/p/456951972)
+
+
 
 
 
