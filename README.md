@@ -54,12 +54,33 @@ LLM全栈优质资源汇总
 - [深度学习模型训练小技巧](https://blog.csdn.net/sgyuanshi/article/details/108394444)
 
 
+### LLM 微调方法
+
+- [Adapting P-Tuning to Solve Non-English Downstream Tasks](https://developer.nvidia.com/blog/adapting-p-tuning-to-solve-non-english-downstream-tasks/)
+
+
+
+
+### RLHF
+
+
+- [MOSS-RLHF](https://github.com/OpenLMLab/MOSS-RLHF)
+
+
+
+
+
+
 ## LLM 推理
 
 
 - [使用HuggingFace的Accelerate库加载和运行超大模型](https://zhuanlan.zhihu.com/p/605640431) : device_map、no_split_module_classes、 offload_folder、 offload_state_dict
 - [使用 DeepSpeed 和 Accelerate 进行超快 BLOOM 模型推理](https://huggingface.co/blog/zh/bloom-inference-pytorch-scripts)
 - [LLM七种推理服务框架总结](https://zhuanlan.zhihu.com/p/653352979)
+- [LLM投机采样（Speculative Sampling）为何能加速模型推理](https://zhuanlan.zhihu.com/p/653734659)
+- [大模型推理妙招—投机采样（Speculative Decoding）](https://zhuanlan.zhihu.com/p/651359908)
+- https://github.com/flexflow/FlexFlow/tree/inference
+- []()
 
 
 
@@ -136,6 +157,13 @@ LLM全栈优质资源汇总
 - [通向AGI之路：大型语言模型（LLM）技术精要](https://zhuanlan.zhihu.com/p/597586623)
 - [大语言模型的涌现能力：现象与解释](https://zhuanlan.zhihu.com/p/621438653)
 - [NLP（十八）：LLM 的推理优化技术纵览](https://zhuanlan.zhihu.com/p/642412124)
+- [并行计算3：并行计算模型](https://zhuanlan.zhihu.com/p/568947162)
+
+
+### safetensors
+
+- https://huggingface.co/docs/safetensors/index
+- https://github.com/huggingface/safetensors/tree/v0.3.3
 
 
 
@@ -143,6 +171,7 @@ LLM全栈优质资源汇总
 
 - [入门 | 一文概览深度学习中的激活函数](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650732724&idx=4&sn=5230b8bb1811cda38ab97afb417d1613&chksm=871b3ccab06cb5dcdf0bdfadcc7ae85d8ae95588bed0b884a55ba50b76d541771104675fbb3e&scene=21#wechat_redirect)
 - [NLP的四个范式](https://zhuanlan.zhihu.com/p/456951972)
+
 
 
 
