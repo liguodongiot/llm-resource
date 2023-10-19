@@ -47,6 +47,8 @@ LLM全栈优质资源汇总
 
 - [OPT-175B是如何炼成的](https://zhuanlan.zhihu.com/p/622061951)
 - [全网最全-混合精度训练原理](https://zhuanlan.zhihu.com/p/441591808)
+- [飞桨分布式训练4D混合并行可训千亿级AI模型](https://ai.baidu.com/forum/topic/show/987996)
+- [Transformer Math 101](https://blog.eleuther.ai/transformer-math/) - 如何计算显存消耗?
 
 
 学习率(warmup, decay)：
@@ -148,8 +150,13 @@ LLM全栈优质资源汇总
 ## LLM 测评
 
 - [CLiB中文大模型能力评测榜单](https://github.com/jeinlee1991/chinese-llm-benchmark)
+- [huggingface Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)
 
 
+
+## 应用
+
+- [langchain java](https://github.com/HamaWhiteGG/langchain-java)
 
 
 ## 综合
@@ -173,6 +180,25 @@ LLM全栈优质资源汇总
 - [NLP的四个范式](https://zhuanlan.zhihu.com/p/456951972)
 
 
+
+
+## CUDA
+
+- [CUDA编程入门（一）CUDA编程模型](https://zhuanlan.zhihu.com/p/97044592)
+- [GPU编程（CUDA）](https://face2ai.com/program-blog/)
+
+
+## AI 芯片
+
+- [业界AI加速芯片浅析（一）百度昆仑芯](https://zhuanlan.zhihu.com/p/593143821)
+
+
+
+
+## LLMOps
+
+- [MLOps Landscape in 2023: Top Tools and Platforms](https://neptune.ai/blog/mlops-tools-platforms-landscape)
+- [What Constitutes A Large Language Model Application?  ](https://cobusgreyling.medium.com/what-constitutes-a-large-language-model-application-bacf81103475)：LLM Functionality Landscape
 
 
 
