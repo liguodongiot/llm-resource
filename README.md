@@ -6,6 +6,12 @@ LLM全栈优质资源汇总
 
 
 
+## 目录
+
+
+- [LLM量化](#llm量化)
+
+
 
 
 
@@ -31,6 +37,12 @@ LLM全栈优质资源汇总
 - [搞懂Transformer结构，看这篇PyTorch实现就够了](https://zhuanlan.zhihu.com/p/339207092)
 
 ### GPT
+
+
+- [State of GPT：大神Andrej揭秘OpenAI大模型原理和训练过程](https://mp.weixin.qq.com/s/zmEGzm1cdXupNoqZ65h7yg)
+- [OpenAI联合创始人亲自上场科普GPT，让技术小白也能理解最强AI](https://mp.weixin.qq.com/s/MD4WwwJLXm8rEm-sniX8Gw)
+
+
 
 ### GLM 
 
@@ -94,9 +106,16 @@ LLM全栈优质资源汇总
 - [Pytorch 模型转 TensorRT (torch2trt 教程)](https://zhuanlan.zhihu.com/p/570822430)
 
 
-### LLM 量化
+### LLM量化
 
 - [LLM 量化技术小结](https://zhuanlan.zhihu.com/p/651874446)
+- [NLP（十一）：大语言模型的模型量化(INT8/INT4)技术](https://zhuanlan.zhihu.com/p/627436535)
+- [LLM大语言模型量化方法介绍（一）](https://www.birentech.com/Research_nstitute_details/13.html) @壁仞
+
+
+
+
+
 
 
 ### LLM 剪枝
@@ -151,6 +170,11 @@ LLM全栈优质资源汇总
 
 - [CLiB中文大模型能力评测榜单](https://github.com/jeinlee1991/chinese-llm-benchmark)
 - [huggingface Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)
+- HELM：https://github.com/stanford-crfm/helm
+- HELM：https://crfm.stanford.edu/helm/latest/
+- lm-evaluation-harness：https://github.com/EleutherAI/lm-evaluation-harness/
+- CLEVA：http://www.lavicleva.com/#/homepage/overview
+- CLEVA：https://github.com/LaVi-Lab/CLEVA/blob/main/README_zh-CN.md
 
 
 
@@ -180,6 +204,11 @@ LLM全栈优质资源汇总
 - [NLP的四个范式](https://zhuanlan.zhihu.com/p/456951972)
 
 
+## AI编译器
+
+
+- [TVM资料](https://github.com/BBuf/tvm_mlir_learn)
+- [AI编译器原理](https://www.bilibili.com/read/cv21242696/?spm_id_from=333.999.0.0) @ZIMO酱
 
 
 ## CUDA
