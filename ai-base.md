@@ -11,4 +11,5 @@
 
 
 
-
+- https://github.com/microsoft/generative-ai-for-beginners
+- https://github.com/microsoft/AI-For-Beginners

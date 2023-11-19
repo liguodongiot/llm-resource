@@ -9,14 +9,21 @@ LLM全栈优质资源汇总
 ## 目录
 
 
-- [LLM量化](#llm量化)
+- [LLM算法](#llm算法)
+- [LLM推理](#llm推理)
+- [LLM压缩](#llm压缩)
+- [LLM测评](#llm测评)
+- [LLM应用开发](#llm应用开发)
+- [AI基础设施](#ai基础设施)
 
 
 
 
 
 
-## LLM 算法
+
+
+## LLM算法
 
 ### Transformer
 
@@ -77,15 +84,12 @@ LLM全栈优质资源汇总
 
 ### RLHF
 
-
 - [MOSS-RLHF](https://github.com/OpenLMLab/MOSS-RLHF)
 
 
 
 
-
-
-## LLM 推理
+## LLM推理
 
 
 - [使用HuggingFace的Accelerate库加载和运行超大模型](https://zhuanlan.zhihu.com/p/605640431) : device_map、no_split_module_classes、 offload_folder、 offload_state_dict
@@ -94,11 +98,13 @@ LLM全栈优质资源汇总
 - [LLM投机采样（Speculative Sampling）为何能加速模型推理](https://zhuanlan.zhihu.com/p/653734659)
 - [大模型推理妙招—投机采样（Speculative Decoding）](https://zhuanlan.zhihu.com/p/651359908)
 - https://github.com/flexflow/FlexFlow/tree/inference
-- []()
+- [TensorRT-LLM(3)--架构](https://zhuanlan.zhihu.com/p/665595557)
+- NLP（十八）：LLM 的推理优化技术纵览：https://zhuanlan.zhihu.com/p/642412124
 
 
 
-## LLM 压缩
+
+## LLM压缩
 
 
 - [模型转换、模型压缩、模型加速工具汇总](https://blog.csdn.net/WZZ18191171661/article/details/99700992)
@@ -111,11 +117,7 @@ LLM全栈优质资源汇总
 - [LLM 量化技术小结](https://zhuanlan.zhihu.com/p/651874446)
 - [NLP（十一）：大语言模型的模型量化(INT8/INT4)技术](https://zhuanlan.zhihu.com/p/627436535)
 - [LLM大语言模型量化方法介绍（一）](https://www.birentech.com/Research_nstitute_details/13.html) @壁仞
-
-
-
-
-
+- [Transformers 中原生支持的量化方案概述](https://zhuanlan.zhihu.com/p/666655711)
 
 
 ### LLM 剪枝
@@ -123,11 +125,13 @@ LLM全栈优质资源汇总
 
 ### LLM 蒸馏
 
+- 知识蒸馏(Knowledge Distillation) 经典之作：https://zhuanlan.zhihu.com/p/102038521
+
+
 ### LLM 稀疏化
 
 - [NLP（八）：大语言模型的稀疏化技术](https://zhuanlan.zhihu.com/p/615399255)
 
-## LLM 应用
 
 
 ## AI框架
@@ -156,13 +160,8 @@ LLM全栈优质资源汇总
 - [[细读经典]Megatron论文和代码详细分析(2)](https://zhuanlan.zhihu.com/p/388830967)
 
 
-
-
-
-
-
-
 ### Megatron-DeepSpeed
+
 
 
 
@@ -177,10 +176,6 @@ LLM全栈优质资源汇总
 - CLEVA：https://github.com/LaVi-Lab/CLEVA/blob/main/README_zh-CN.md
 
 
-
-## 应用
-
-- [langchain java](https://github.com/HamaWhiteGG/langchain-java)
 
 
 ## 综合
@@ -198,10 +193,6 @@ LLM全栈优质资源汇总
 
 
 
-## 基础
-
-- [入门 | 一文概览深度学习中的激活函数](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650732724&idx=4&sn=5230b8bb1811cda38ab97afb417d1613&chksm=871b3ccab06cb5dcdf0bdfadcc7ae85d8ae95588bed0b884a55ba50b76d541771104675fbb3e&scene=21#wechat_redirect)
-- [NLP的四个范式](https://zhuanlan.zhihu.com/p/456951972)
 
 
 ## AI编译器
@@ -211,17 +202,29 @@ LLM全栈优质资源汇总
 - [AI编译器原理](https://www.bilibili.com/read/cv21242696/?spm_id_from=333.999.0.0) @ZIMO酱
 
 
-## CUDA
+
+## AI 基础
+
+- [入门 | 一文概览深度学习中的激活函数](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650732724&idx=4&sn=5230b8bb1811cda38ab97afb417d1613&chksm=871b3ccab06cb5dcdf0bdfadcc7ae85d8ae95588bed0b884a55ba50b76d541771104675fbb3e&scene=21#wechat_redirect)
+- [NLP的四个范式](https://zhuanlan.zhihu.com/p/456951972)
+
+
+
+
+## AI基础设施
+
+### AI 芯片
+
+- [业界AI加速芯片浅析（一）百度昆仑芯](https://zhuanlan.zhihu.com/p/593143821)
+- NVIDIA CUDA-X AI：https://www.nvidia.cn/technologies/cuda-x/
+- [Intel，Nvidia，AMD三大巨头火拼GPU与CPU](https://zhuanlan.zhihu.com/p/629024100)
+- 处理器与AI芯片-Google-TPU：https://zhuanlan.zhihu.com/p/646793355
+
+
+### CUDA
 
 - [CUDA编程入门（一）CUDA编程模型](https://zhuanlan.zhihu.com/p/97044592)
 - [GPU编程（CUDA）](https://face2ai.com/program-blog/)
-
-
-## AI 芯片
-
-- [业界AI加速芯片浅析（一）百度昆仑芯](https://zhuanlan.zhihu.com/p/593143821)
-
-
 
 
 ## LLMOps
@@ -232,6 +235,10 @@ LLM全栈优质资源汇总
 
 
 
+## LLM应用开发
+
+- 动手学大模型应用开发：https://github.com/datawhalechina/llm-universe
+- [langchain java](https://github.com/HamaWhiteGG/langchain-java)
 
 
 
