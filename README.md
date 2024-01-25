@@ -4,8 +4,6 @@ LLM全栈优质资源汇总
 
 > 非常欢迎大家也参与进来，收集更多优质大模型相关资源。
 
-
-
 ## 目录
 
 - [LLM算法](#llm算法)
@@ -85,12 +83,9 @@ LLM全栈优质资源汇总
 - [Adapting P-Tuning to Solve Non-English Downstream Tasks](https://developer.nvidia.com/blog/adapting-p-tuning-to-solve-non-english-downstream-tasks/)
 
 
-
-
 ### RLHF
 
 - [MOSS-RLHF](https://github.com/OpenLMLab/MOSS-RLHF)
-
 
 
 
@@ -107,38 +102,13 @@ LLM全栈优质资源汇总
 - NLP（十八）：LLM 的推理优化技术纵览：https://zhuanlan.zhihu.com/p/642412124
 
 
-
 ## LLM压缩
 
-
+- [Efficient-LLMs-Survey](https://github.com/AIoT-MLSys-Lab/Efficient-LLMs-Survey)
+- [Awesome LLM Compression](https://github.com/HuangOwen/Awesome-LLM-Compression)
 - [模型转换、模型压缩、模型加速工具汇总](https://blog.csdn.net/WZZ18191171661/article/details/99700992)
 - [AI 框架部署方案之模型转换](https://zhuanlan.zhihu.com/p/396781295)
 - [Pytorch 模型转 TensorRT (torch2trt 教程)](https://zhuanlan.zhihu.com/p/570822430)
-
-
-### LLM量化
-
-- [LLM 量化技术小结](https://zhuanlan.zhihu.com/p/651874446)
-- [NLP（十一）：大语言模型的模型量化(INT8/INT4)技术](https://zhuanlan.zhihu.com/p/627436535)
-- [LLM大语言模型量化方法介绍（一）](https://www.birentech.com/Research_nstitute_details/13.html) @壁仞
-- [Transformers 中原生支持的量化方案概述](https://zhuanlan.zhihu.com/p/666655711)
-
-
-### LLM 剪枝
-
-
-
-
-### LLM 蒸馏
-
-- 知识蒸馏(Knowledge Distillation) 经典之作：https://zhuanlan.zhihu.com/p/102038521
-
-
-### LLM 稀疏化
-
-- [NLP（八）：大语言模型的稀疏化技术](https://zhuanlan.zhihu.com/p/615399255)
-
-
 
 
 
@@ -163,12 +133,6 @@ LLM全栈优质资源汇总
 - [NLP（十八）：LLM 的推理优化技术纵览](https://zhuanlan.zhihu.com/p/642412124)
 - [并行计算3：并行计算模型](https://zhuanlan.zhihu.com/p/568947162)
 - [大模型“幻觉”，看这一篇就够了 | 哈工大华为出品](https://www.thepaper.cn/newsDetail_forward_25344873)
-
-
-### safetensors
-
-- https://huggingface.co/docs/safetensors/index
-- https://github.com/huggingface/safetensors/tree/v0.3.3
 
 
 
@@ -204,8 +168,13 @@ LLM全栈优质资源汇总
 
 
 
+### Huggingface Transformers
 
 
+**safetensors**：
+
+- https://huggingface.co/docs/safetensors/index
+- https://github.com/huggingface/safetensors/tree/v0.3.3
 
 
 
@@ -246,7 +215,6 @@ LLM全栈优质资源汇总
 - [langchain java](https://github.com/HamaWhiteGG/langchain-java)
 - 大模型主流应用RAG的介绍——从架构到技术细节：https://luxiangdong.com/2023/09/25/ragone/#/%E5%86%99%E5%9C%A8%E5%89%8D%E9%9D%A2
 - 基于检索的大语言模型和应用（陈丹琦）：https://acl2023-retrieval-lm.github.io/
-
 
 
 
