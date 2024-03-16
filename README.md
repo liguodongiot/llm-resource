@@ -11,7 +11,7 @@ LLM全栈优质资源汇总
 	- 🐘 [LLM微调](#llm微调)
 	- 🐘 [RLHF](#rlhf)
 - 🔥 [LLM推理](#llm推理)
-- [LLM压缩](#llm压缩)
+- 📡 [LLM压缩](#llm压缩)
 - 🐰 [LLM测评](#llm测评)
 - 🐘[AI基础](#ai基础)
 - 📡 [AI基础设施](#ai基础设施)
