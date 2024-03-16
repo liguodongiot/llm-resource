@@ -6,19 +6,20 @@ LLM全栈优质资源汇总
 
 ## 目录
 
-- [LLM算法](#llm算法)
-- [LLM训练](#llm训练)
-- [LLM推理](#llm推理)
+- 🐼 [LLM算法](#llm算法)
+- 🐘 [LLM训练](#llm训练)
+	- 🐘 [LLM微调](#llm微调)
+	- 🐘 [RLHF](#rlhf)
+- 🔥 [LLM推理](#llm推理)
 - [LLM压缩](#llm压缩)
-- [LLM测评](#llm测评)
-- [AI基础](#ai基础)
-- [AI基础设施](#ai基础设施)
-- [AI编译器](#ai编译器)
-- [AI框架](#ai框架)
-- [LLM应用开发](#llm应用开发)
-- [LLMOps](#llmops)
-- [微信公众号文章集锦](#微信公众号文章集锦)
-
+- 🐰 [LLM测评](#llm测评)
+- 🐘[AI基础](#ai基础)
+- 📡 [AI基础设施](#ai基础设施)
+- 🐘 [AI编译器](#ai编译器)
+- 🐰 [AI框架](#ai框架)
+- 📡 [LLM应用开发](#llm应用开发)
+- 🐘 [LLMOps](#llmops)
+- 📡[微信公众号文章集锦](#微信公众号文章集锦)
 
 
 ## LLM算法
@@ -79,7 +80,7 @@ LLM全栈优质资源汇总
 	- [深度学习模型训练小技巧](https://blog.csdn.net/sgyuanshi/article/details/108394444)
 
 
-### LLM 微调方法
+### LLM微调
 
 - [Adapting P-Tuning to Solve Non-English Downstream Tasks](https://developer.nvidia.com/blog/adapting-p-tuning-to-solve-non-english-downstream-tasks/)
 
@@ -226,14 +227,18 @@ LLM全栈优质资源汇总
 - [What Constitutes A Large Language Model Application?  ](https://cobusgreyling.medium.com/what-constitutes-a-large-language-model-application-bacf81103475)：LLM Functionality Landscape
 
 
-
 ## AI System
 
-- https://github.com/microsoft/AI-System/tree/main
-
+- [微软 AI System](https://github.com/microsoft/AI-System/tree/main)
 
 
 ## 微信公众号文章集锦
+
+- [2024年2月大模型文章集锦](https://mp.weixin.qq.com/s?__biz=MzU3Mzg5ODgxMg==&mid=2247487320&idx=2&sn=522fdf838d4ec03f24dbc7a11a3a5a65&chksm=fd3be60bca4c6f1d0c9b0643db0d7334940fb592dac3b5fbf286c7232f6bb08b968fbd237a20&scene=21#wechat_redirect)
+- [2024年1月大模型文章集锦](https://mp.weixin.qq.com/s?__biz=MzU3Mzg5ODgxMg==&mid=2247487067&idx=2&sn=33594e6a82cf79a7580272c064635d75&chksm=fd3be708ca4c6e1ece0e1f6cc22bfd286bf3e9073350b91369b1d0e7fb52b50fac8113288e43&scene=21#wechat_redirect)
+- [2023年12月大模型文章集锦](https://mp.weixin.qq.com/s?__biz=MzU3Mzg5ODgxMg==&mid=2247486824&idx=2&sn=4faaac42f983af46cce44b35dd416c5f&chksm=fd3be43bca4c6d2d6f5fd1cf3004c37782d0b829111ad5ecd155d6cd3adedd40655653271ba1&scene=21#wechat_redirect)
+- [2023年6-11月大模型文章集锦](https://mp.weixin.qq.com/s?__biz=MzU3Mzg5ODgxMg==&mid=2247486480&idx=2&sn=b6b504f9d67a3cdad5ba0eb68eee647b&chksm=fd3be543ca4c6c55e0c2fd335de92103a1aee4e5631be34f06d7557463bc7e339fb63680ad54&scene=21&poc_token=HCwA9WWjTC-CNeedW8iQ1lZwSAwg4fwWFAVcUnai)
+
 
 
 
