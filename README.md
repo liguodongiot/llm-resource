@@ -1,4 +1,4 @@
-# llm-resource
+# llm-resource（LLM 百宝箱）
 
 LLM全栈优质资源汇总
 
@@ -17,6 +17,7 @@ LLM全栈优质资源汇总
 - [AI框架](#ai框架)
 - [LLM应用开发](#llm应用开发)
 - [LLMOps](#llmops)
+- [微信公众号文章集锦](#微信公众号文章集锦)
 
 
 
@@ -100,10 +101,11 @@ LLM全栈优质资源汇总
 - https://github.com/flexflow/FlexFlow/tree/inference
 - [TensorRT-LLM(3)--架构](https://zhuanlan.zhihu.com/p/665595557)
 - NLP（十八）：LLM 的推理优化技术纵览：https://zhuanlan.zhihu.com/p/642412124
-
+- ​揭秘NVIDIA大模型推理框架：TensorRT-LLM：https://zhuanlan.zhihu.com/p/680808866
 
 ## LLM压缩
 
+- [Awesome Model Quantization](https://github.com/htqin/awesome-model-quantization)
 - [Efficient-LLMs-Survey](https://github.com/AIoT-MLSys-Lab/Efficient-LLMs-Survey)
 - [Awesome LLM Compression](https://github.com/HuangOwen/Awesome-LLM-Compression)
 - [模型转换、模型压缩、模型加速工具汇总](https://blog.csdn.net/WZZ18191171661/article/details/99700992)
@@ -228,6 +230,13 @@ LLM全栈优质资源汇总
 ## AI System
 
 - https://github.com/microsoft/AI-System/tree/main
+
+
+
+## 微信公众号文章集锦
+
+
+
 
 
 
