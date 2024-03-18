@@ -1,5 +1,4 @@
 
-
 ## 模型压缩
 
 - 模型压缩及移动端部署: https://github.com/scutan90/DeepLearning-500-questions/blob/master/ch17_%E6%A8%A1%E5%9E%8B%E5%8E%8B%E7%BC%A9%E3%80%81%E5%8A%A0%E9%80%9F%E5%8F%8A%E7%A7%BB%E5%8A%A8%E7%AB%AF%E9%83%A8%E7%BD%B2/%E7%AC%AC%E5%8D%81%E4%B8%83%E7%AB%A0_%E6%A8%A1%E5%9E%8B%E5%8E%8B%E7%BC%A9%E3%80%81%E5%8A%A0%E9%80%9F%E5%8F%8A%E7%A7%BB%E5%8A%A8%E7%AB%AF%E9%83%A8%E7%BD%B2.md#1751-%E6%A8%A1%E5%9E%8B%E4%BC%98%E5%8C%96%E5%8A%A0%E9%80%9F%E6%96%B9%E6%B3%95
@@ -22,16 +21,10 @@
 
 ### 模型剪枝
 
-
-
-### LLM 稀疏化
-
 - [NLP（八）：大语言模型的稀疏化技术](https://zhuanlan.zhihu.com/p/615399255)
 
 
 ### 模型量化
-
-
 
 - [量化感知训练（Quantization-aware-training）探索-从原理到实践](https://zhuanlan.zhihu.com/p/548174416)-TF
 - [Pytorch实现卷积神经网络训练量化（QAT）](https://zhuanlan.zhihu.com/p/164901397)

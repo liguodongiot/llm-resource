@@ -9,11 +9,11 @@ LLM全栈优质资源汇总
 - 🐼 [LLM算法](#llm算法)
 - 🐘 [LLM训练](#llm训练)
 	- 🐘 [LLM微调](#llm微调)
-	- 🐘 [RLHF](#rlhf)
+	- 🐼 [RLHF](#rlhf)
 - 🔥 [LLM推理](#llm推理)
 - 📡 [LLM压缩](#llm压缩)
 - 🐰 [LLM测评](#llm测评)
-- 🐘[AI基础](#ai基础)
+- 🐘 [AI基础知识](#ai基础知识)
 - 📡 [AI基础设施](#ai基础设施)
 - 🐘 [AI编译器](#ai编译器)
 - 🐰 [AI框架](#ai框架)
@@ -103,6 +103,10 @@ LLM全栈优质资源汇总
 - [TensorRT-LLM(3)--架构](https://zhuanlan.zhihu.com/p/665595557)
 - NLP（十八）：LLM 的推理优化技术纵览：https://zhuanlan.zhihu.com/p/642412124
 - ​揭秘NVIDIA大模型推理框架：TensorRT-LLM：https://zhuanlan.zhihu.com/p/680808866
+- [大模型推理加速：看图学KV Cache](https://zhuanlan.zhihu.com/p/662498827)
+
+
+
 
 ## LLM压缩
 
@@ -181,6 +185,8 @@ LLM全栈优质资源汇总
 
 
 
+## [AI基础知识](./ai-base.md)
+
 
 ## AI基础设施
 
@@ -199,11 +205,6 @@ LLM全栈优质资源汇总
 
 
 
-## AI基础
-
-- [入门 | 一文概览深度学习中的激活函数](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650732724&idx=4&sn=5230b8bb1811cda38ab97afb417d1613&chksm=871b3ccab06cb5dcdf0bdfadcc7ae85d8ae95588bed0b884a55ba50b76d541771104675fbb3e&scene=21#wechat_redirect)
-- [NLP的四个范式](https://zhuanlan.zhihu.com/p/456951972)
-
 
 
 ## AI编译器
@@ -220,7 +221,6 @@ LLM全栈优质资源汇总
 - 基于检索的大语言模型和应用（陈丹琦）：https://acl2023-retrieval-lm.github.io/
 
 
-
 ## LLMOps
 
 - [MLOps Landscape in 2023: Top Tools and Platforms](https://neptune.ai/blog/mlops-tools-platforms-landscape)
@@ -229,7 +229,20 @@ LLM全栈优质资源汇总
 
 ## AI System
 
-- [微软 AI System](https://github.com/microsoft/AI-System/tree/main)
+- [AI System @微软](https://github.com/microsoft/AI-System/tree/main)
+- [AI System @吃果冻不吐果冻皮](https://github.com/liguodongiot/ai-system)
+
+
+
+## RAG
+
+- https://github.com/hymie122/RAG-Survey
+
+## 书籍
+
+- 大语言模型原理与工程 @杨青
+
+
 
 
 ## 微信公众号文章集锦
