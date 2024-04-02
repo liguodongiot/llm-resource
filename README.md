@@ -11,6 +11,7 @@ LLM全栈优质资源汇总
 	- 🐘 [LLM微调](#llm微调)
 	- 🐼 [RLHF](#rlhf)
 - 🔥 [LLM推理](#llm推理)
+- :palm_tree: [LLM数据工程（Data Engineering）](#llm数据工程)
 - 📡 [LLM压缩](#llm压缩)
 - 🐰 [LLM测评](#llm测评)
 - 🐘 [AI基础知识](#ai基础知识)
@@ -19,7 +20,9 @@ LLM全栈优质资源汇总
 - 🐰 [AI框架](#ai框架)
 - 📡 [LLM应用开发](#llm应用开发)
 - 🐘 [LLMOps](#llmops)
+- 📡 [LLM实践](llm实践)
 - 📡[微信公众号文章集锦](#微信公众号文章集锦)
+
 
 
 ## LLM算法
@@ -106,7 +109,11 @@ LLM全栈优质资源汇总
 - [大模型推理加速：看图学KV Cache](https://zhuanlan.zhihu.com/p/662498827)
 
 
+## LLM数据工程
 
+
+- [An Initial Exploration of Theoretical Support for Language Model Data Engineering. Part 1: Pretraining @
+符尧](https://yaofu.notion.site/An-Initial-Exploration-of-Theoretical-Support-for-Language-Model-Data-Engineering-Part-1-Pretraini-dc480d9bf7ff4659afd8c9fb738086eb)
 
 ## LLM压缩
 
@@ -241,6 +248,25 @@ LLM全栈优质资源汇总
 ## 书籍
 
 - 大语言模型原理与工程 @杨青
+
+
+
+## LLM实践
+
+- [minGPT @karpathy](https://github.com/karpathy/minGPT)
+- [Baby-Llama2-Chinese](https://github.com/DLLXW/baby-llama2-chinese)
+- [从0到1构建一个MiniLLM](https://github.com/Tongjilibo/build_MiniLLM_from_scratch)
+
+
+## 大模型汇总资料
+
+- [Awesome-Chinese-LLM](https://github.com/HqWu-HITCS/Awesome-Chinese-LLM)
+- [Large Language Model Course](https://github.com/mlabonne/llm-course)
+- [Awesome-Quantization-Papers](https://github.com/Zhen-Dong/Awesome-Quantization-Papers)
+- [Awesome Model Quantization (GitHub)](https://github.com/htqin/awesome-model-quantization)
+- [Awesome Transformer Attention (GitHub)](https://github.com/cmhungsteve/Awesome-Transformer-Attention)
+- [语言模型数据选择综述](https://github.com/alon-albalak/data-selection-survey)
+- [Awesome Knowledge Distillation of LLM Papers](https://github.com/Tebmer/Awesome-Knowledge-Distillation-of-LLMs)
 
 
 

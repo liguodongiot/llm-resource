@@ -22,7 +22,7 @@
 ### 模型剪枝
 
 - [NLP（八）：大语言模型的稀疏化技术](https://zhuanlan.zhihu.com/p/615399255)
-
+- [LLM-Pruner: 大语言模型的结构化剪枝](https://zhuanlan.zhihu.com/p/630902012)
 
 ### 模型量化
 
