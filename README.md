@@ -9,7 +9,7 @@ LLM全栈优质资源汇总
 - 🐼 [LLM算法](#llm算法)
 - 🐘 [LLM训练](#llm训练)
 	- 🐘 [LLM微调](#llm微调)
-	- 🐼 [RLHF](#rlhf)
+	- 🐼 [LLM对齐](#llm对齐)
 - 🔥 [LLM推理](#llm推理)
 - :palm_tree: [LLM数据工程（Data Engineering）](#llm数据工程)
 - 📡 [LLM压缩](#llm压缩)
@@ -27,11 +27,6 @@ LLM全栈优质资源汇总
 
 ## LLM算法
 
-- 下一代大模型
-	- https://github.com/NExT-GPT/NExT-GPT
-	- https://next-gpt.github.io/
-	- [Introduction to NExT-GPT: Any-to-Any Multimodal Large Language Model](https://www.kdnuggets.com/introduction-to-nextgpt-anytoany-multimodal-large-language-model)
-
 
 ### Transformer
 
@@ -41,7 +36,6 @@ LLM全栈优质资源汇总
 - [Transformer的结构是什么样的？各个子模块各有什么作用？](https://blog.csdn.net/m0_54929869/article/details/118881804)
 - [以Transformer结构为基础的大模型参数量、计算量、中间激活以及KV cache剖析](https://mp.weixin.qq.com/s/3JYz6yrLeBr5ujip3LZe6w)
 - [Transformer 一起动手编码学原理](https://mp.weixin.qq.com/s/NgUNuWhvp2SqG-XWYv2PGQ)
-
 
 源码：
 
@@ -53,15 +47,12 @@ LLM全栈优质资源汇总
 
 ### GPT
 
-
 - [State of GPT：大神Andrej揭秘OpenAI大模型原理和训练过程](https://mp.weixin.qq.com/s/zmEGzm1cdXupNoqZ65h7yg)
 - [OpenAI联合创始人亲自上场科普GPT，让技术小白也能理解最强AI](https://mp.weixin.qq.com/s/MD4WwwJLXm8rEm-sniX8Gw)
 
 
+### GLM
 
-### GLM 
-
-原理：
 - [预训练语言模型：GLM](https://zhuanlan.zhihu.com/p/641499380)
 
 
@@ -69,14 +60,24 @@ LLM全栈优质资源汇总
 
 
 
+### 下一代大模型
+
+- https://github.com/NExT-GPT/NExT-GPT
+- https://next-gpt.github.io/
+- [Introduction to NExT-GPT: Any-to-Any Multimodal Large Language Model](https://www.kdnuggets.com/introduction-to-nextgpt-anytoany-multimodal-large-language-model)
+
+
 
 ## LLM训练
+
 
 - [OPT-175B是如何炼成的](https://zhuanlan.zhihu.com/p/622061951)
 - [全网最全-混合精度训练原理](https://zhuanlan.zhihu.com/p/441591808)
 - [飞桨分布式训练4D混合并行可训千亿级AI模型](https://ai.baidu.com/forum/topic/show/987996)
 - [Transformer Math 101](https://blog.eleuther.ai/transformer-math/) - 如何计算显存消耗?
-- 心法利器[103] | 大模型bad case修复方案思考：https://mp.weixin.qq.com/s/xqFkfzHVnePf1ub_sCk9iw
+- [Megatron-LM 第三篇Paper总结——Sequence Parallelism & Selective Checkpointing](https://zhuanlan.zhihu.com/p/522198082)
+- [大模型训练踩坑](https://zhuanlan.zhihu.com/p/660759033)
+
 
 - 学习率(warmup, decay)：
 	- [模型调优，学习率设置（Warm Up、loss自适应衰减等），batch size调优技巧，基于方差放缩初始化方法](https://blog.csdn.net/sinat_39620217/article/details/130236886)
@@ -88,9 +89,14 @@ LLM全栈优质资源汇总
 - [Adapting P-Tuning to Solve Non-English Downstream Tasks](https://developer.nvidia.com/blog/adapting-p-tuning-to-solve-non-english-downstream-tasks/)
 
 
-### RLHF
+### LLM对齐
 
 - [MOSS-RLHF](https://github.com/OpenLMLab/MOSS-RLHF)
+- [模型调优（RLHF/DPO/ORPO）- 终极指南](https://zhuanlan.zhihu.com/p/692594519)
+- [DPO: Direct Preference Optimization 论文解读及代码实践](https://zhuanlan.zhihu.com/p/642569664)
+
+
+
 
 
 
@@ -106,14 +112,30 @@ LLM全栈优质资源汇总
 - [TensorRT-LLM(3)--架构](https://zhuanlan.zhihu.com/p/665595557)
 - NLP（十八）：LLM 的推理优化技术纵览：https://zhuanlan.zhihu.com/p/642412124
 - ​揭秘NVIDIA大模型推理框架：TensorRT-LLM：https://zhuanlan.zhihu.com/p/680808866
+
+
+### 大模型推理优化技术
+
+
+KV Cache：
+- [图解大模型推理优化：KV Cache](https://mp.weixin.qq.com/s?__biz=MzU3Mzg5ODgxMg==&mid=2247486956&idx=1&sn=cd5e36857bbd8ebd750d2c172550d2bd&chksm=fd3be4bfca4c6da9f2276310995c7d60a42c0d01a960a42a38226cf954bab0d2d2a5772905df&token=1409805983&lang=zh_CN#rd)
+- [大模型推理百倍加速之KV cache篇](https://mp.weixin.qq.com/s?__biz=MzU3Mzg5ODgxMg==&mid=2247487886&idx=1&sn=38d3cd36c6c5acb2fe5c80ceffcba2cf&chksm=fd3bf8ddca4c71cb243566b593dfa095926b003a4a06442cc96e8ce3f2c64171b34f0bca8428&token=1409805983&lang=zh_CN#rd)
 - [大模型推理加速：看图学KV Cache](https://zhuanlan.zhihu.com/p/662498827)
+- [大模型推理性能优化之KV Cache解读](https://zhuanlan.zhihu.com/p/630832593)
+
+
+解码优化：
+- [大模型推理妙招—投机采样（Speculative Decoding）](https://zhuanlan.zhihu.com/p/651359908)
+
+
 
 
 ## LLM数据工程
 
-
 - [An Initial Exploration of Theoretical Support for Language Model Data Engineering. Part 1: Pretraining @
 符尧](https://yaofu.notion.site/An-Initial-Exploration-of-Theoretical-Support-for-Language-Model-Data-Engineering-Part-1-Pretraini-dc480d9bf7ff4659afd8c9fb738086eb)
+
+
 
 ## LLM压缩
 
@@ -126,7 +148,6 @@ LLM全栈优质资源汇总
 
 
 
-
 ## LLM测评
 
 - [CLiB中文大模型能力评测榜单](https://github.com/jeinlee1991/chinese-llm-benchmark)
@@ -136,6 +157,19 @@ LLM全栈优质资源汇总
 - lm-evaluation-harness：https://github.com/EleutherAI/lm-evaluation-harness/
 - CLEVA：http://www.lavicleva.com/#/homepage/overview
 - CLEVA：https://github.com/LaVi-Lab/CLEVA/blob/main/README_zh-CN.md
+
+
+
+## 提示工程
+
+
+- [做数据关键步骤：怎么写好prompt？](https://mp.weixin.qq.com/s?__biz=MzU3Mzg5ODgxMg==&mid=2247486771&idx=1&sn=359c029b010d7ad96fff33952ad634a8&chksm=fd3be460ca4c6d76b4996f971ff21080ca0a83f3042893bb6827752ad8af812b4afeb1151af1&token=1288418017&lang=zh_CN#rd)
+- [从1000+模板中总结出的10大提示工程方法助你成为提示词大师！](https://mp.weixin.qq.com/s?__biz=MzU3Mzg5ODgxMg==&mid=2247486174&idx=1&sn=97ddcd5fb44eb4e3143fa746b7d617c8&chksm=fd3be38dca4c6a9b94fb88bd3f7a5009dee53812412e6f62f9f0a5955d165dd0d5f6ce698208&scene=21#wechat_redirect)
+- [一文搞懂提示工程的原理及前世今生](https://mp.weixin.qq.com/s?__biz=MzU3Mzg5ODgxMg==&mid=2247485231&idx=1&sn=acfa77264da611983a49297ab8376e8f&chksm=fd3bee7cca4c676a3ccbc459e70a9e9920b08369a4d618c4ed550c96e9acd09b594cc04b21a6&scene=21#wechat_redirect)
+- [Effective Prompt: 编写高质量Prompt的14个有效方法](https://mp.weixin.qq.com/s?__biz=MzU3Mzg5ODgxMg==&mid=2247486087&idx=1&sn=118b82abd4b22975e9aeb9f23ed0c9c5&chksm=fd3be3d4ca4c6ac2b41f1c3e908b845d4497a84dc9741034d1e1a830cba93515439b60a835e5&scene=21#wechat_redirect)
+- [提示工程和提示构造技巧](https://mp.weixin.qq.com/s?__biz=MzU3Mzg5ODgxMg==&mid=2247487107&idx=1&sn=337325ee6a9a4d4c56821b1e759f1555&chksm=fd3be7d0ca4c6ec60b6394bf76282ee3eef6beccfe2c31885cbb111a5bdc32022ba346509681&token=1288418017&lang=zh_CN#rd)
+- [一文带你了解提示攻击！](https://mp.weixin.qq.com/s?__biz=MzU3Mzg5ODgxMg==&mid=2247485936&idx=1&sn=0bcc72e5bfeb50c437253626d763f67d&chksm=fd3be0a3ca4c69b52bba0e0f22730b497c56fad99444b23d437cf49262cd5e52489fb141d338&token=1288418017&lang=zh_CN#rd)
+
 
 
 
@@ -224,8 +258,12 @@ LLM全栈优质资源汇总
 
 - 动手学大模型应用开发：https://github.com/datawhalechina/llm-universe
 - [langchain java](https://github.com/HamaWhiteGG/langchain-java)
-- 大模型主流应用RAG的介绍——从架构到技术细节：https://luxiangdong.com/2023/09/25/ragone/#/%E5%86%99%E5%9C%A8%E5%89%8D%E9%9D%A2
-- 基于检索的大语言模型和应用（陈丹琦）：https://acl2023-retrieval-lm.github.io/
+- [大模型主流应用RAG的介绍——从架构到技术细节](https://luxiangdong.com/2023/09/25/ragone/#/%E5%86%99%E5%9C%A8%E5%89%8D%E9%9D%A2)
+- [基于检索的大语言模型和应用（陈丹琦）](https://acl2023-retrieval-lm.github.io/)
+- [大模型bad case修复方案思考](https://mp.weixin.qq.com/s/xqFkfzHVnePf1ub_sCk9iw)
+- [《综述：全新大语言模型驱动的Agent》——4.5万字详细解读复旦NLP和米哈游最新Agent Survey](https://zhuanlan.zhihu.com/p/656676717)
+
+
 
 
 ## LLMOps
@@ -261,14 +299,16 @@ LLM全栈优质资源汇总
 ## 大模型汇总资料
 
 - [Awesome-Chinese-LLM](https://github.com/HqWu-HITCS/Awesome-Chinese-LLM)
+- [Awesome-LLM-Survey](https://github.com/HqWu-HITCS/Awesome-LLM-Survey)
 - [Large Language Model Course](https://github.com/mlabonne/llm-course)
 - [Awesome-Quantization-Papers](https://github.com/Zhen-Dong/Awesome-Quantization-Papers)
 - [Awesome Model Quantization (GitHub)](https://github.com/htqin/awesome-model-quantization)
 - [Awesome Transformer Attention (GitHub)](https://github.com/cmhungsteve/Awesome-Transformer-Attention)
 - [语言模型数据选择综述](https://github.com/alon-albalak/data-selection-survey)
 - [Awesome Knowledge Distillation of LLM Papers](https://github.com/Tebmer/Awesome-Knowledge-Distillation-of-LLMs)
-
-
+- [Awasome-Pruning @ghimiredhikura](https://github.com/ghimiredhikura/Awasome-Pruning)
+- [Awesome-Pruning @he-y](https://github.com/he-y/Awesome-Pruning)
+- [Awesome-LLM-Inference](https://github.com/DefTruth/Awesome-LLM-Inference)
 
 
 ## 微信公众号文章集锦
