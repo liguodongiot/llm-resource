@@ -16,6 +16,8 @@ LLM全栈优质资源汇总
 - 🐰 [LLM测评](#llm测评)
 - 🐘 [AI基础知识](#ai基础知识)
 - 📡 [AI基础设施](#ai基础设施)
+	- :palm_tree: [AI芯片](#ai芯片)
+	- 🐰 [CUDA](#cuda)
 - 🐘 [AI编译器](#ai编译器)
 - 🐰 [AI框架](#ai框架)
 - 📡 [LLM应用开发](#llm应用开发)
@@ -60,6 +62,15 @@ LLM全栈优质资源汇总
 
 
 
+### MOE 大模型
+
+- [Mixtral-8x7B MoE大模型微调实践，超越Llama2-65B](https://mp.weixin.qq.com/s?__biz=MzU3Mzg5ODgxMg==&mid=2247486657&idx=1&sn=c5a5e55b01243f477d063c9194d24f42&chksm=fd3be592ca4c6c84bf5eefff23dcc38eeb83624e9f53bbd9a72afba71e235dddf814549322ba&token=499509118&lang=zh_CN#rd)
+- [大模型分布式训练并行技术（八）-MOE并行](https://mp.weixin.qq.com/s?__biz=MzU3Mzg5ODgxMg==&mid=2247486145&idx=1&sn=299c28153b286465be26e18153c6db5d&chksm=fd3be392ca4c6a84be283dad80f584443302ea29fc95744f83727e7d9d68952d3a0f8b1b66d5&token=499509118&lang=zh_CN#rd)
+- [MoE架构模型爆发或将带飞国产AI芯片](https://mp.weixin.qq.com/s?__biz=MzU3Mzg5ODgxMg==&mid=2247488422&idx=1&sn=eeb18ec0f5b9e972df31d65e7db13f8f&chksm=fd3bfaf5ca4c73e38a696fe7b6f33a30af962fdddfabd92d74b1d06190442759aabe7b560f22&token=499509118&lang=zh_CN#rd)
+- [大模型的模型融合方法概述](https://mp.weixin.qq.com/s?__biz=MzU3Mzg5ODgxMg==&mid=2247487652&idx=1&sn=1bbf692b6e1dc6bae719c8e0a10293a0&chksm=fd3bf9f7ca4c70e16473a98d5408f6daea5e8c116a88cb3f41dfb00ffb7f6016874ee092224c&token=499509118&lang=zh_CN#rd)
+
+
+
 ### 下一代大模型
 
 - https://github.com/NExT-GPT/NExT-GPT
@@ -97,9 +108,6 @@ LLM全栈优质资源汇总
 
 
 
-
-
-
 ## LLM推理
 
 
@@ -112,6 +120,10 @@ LLM全栈优质资源汇总
 - [TensorRT-LLM(3)--架构](https://zhuanlan.zhihu.com/p/665595557)
 - NLP（十八）：LLM 的推理优化技术纵览：https://zhuanlan.zhihu.com/p/642412124
 - ​揭秘NVIDIA大模型推理框架：TensorRT-LLM：https://zhuanlan.zhihu.com/p/680808866
+- [如何生成文本: 通过 Transformers 用不同的解码方法生成文本](https://huggingface.co/blog/zh/how-to-generate) | [How to generate text: using different decoding methods for language generation with Transformers](https://huggingface.co/blog/how-to-generate)
+
+
+
 
 
 ### 大模型推理优化技术
@@ -172,8 +184,6 @@ KV Cache：
 
 
 
-
-
 ## 综合
 
 - [通向AGI之路：大型语言模型（LLM）技术精要](https://zhuanlan.zhihu.com/p/597586623)
@@ -183,6 +193,16 @@ KV Cache：
 - [大模型“幻觉”，看这一篇就够了 | 哈工大华为出品](https://www.thepaper.cn/newsDetail_forward_25344873)
 
 
+**safetensors**：
+
+- [bin和safetensors区别是什么？](https://www.zhihu.com/question/629624037/answer/3307818120)
+- [Safetensors：保存模型权重的新格式](https://zhuanlan.zhihu.com/p/691446249)
+- [github: safetensors](https://github.com/huggingface/safetensors)
+- [huggingface: safetensors](https://huggingface.co/docs/safetensors/index)
+- [Safetensors: a simple, safe and faster way to store and distribute tensors.](https://medium.com/@mandalsouvik/safetensors-a-simple-and-safe-way-to-store-and-distribute-tensors-d9ba1931ba04)
+- https://huggingface.co/docs/safetensors/index
+- https://github.com/huggingface/safetensors/tree/v0.3.3
+- [手把手教你：LLama2原始权重转HF模型](https://zhuanlan.zhihu.com/p/669158180)
 
 
 ## AI框架
@@ -214,15 +234,8 @@ KV Cache：
 ### Megatron-DeepSpeed
 
 
-
-
 ### Huggingface Transformers
 
-
-**safetensors**：
-
-- https://huggingface.co/docs/safetensors/index
-- https://github.com/huggingface/safetensors/tree/v0.3.3
 
 
 
@@ -231,19 +244,21 @@ KV Cache：
 
 ## AI基础设施
 
-### AI 芯片
+### AI芯片
 
 - [业界AI加速芯片浅析（一）百度昆仑芯](https://zhuanlan.zhihu.com/p/593143821)
 - NVIDIA CUDA-X AI：https://www.nvidia.cn/technologies/cuda-x/
 - [Intel，Nvidia，AMD三大巨头火拼GPU与CPU](https://zhuanlan.zhihu.com/p/629024100)
 - 处理器与AI芯片-Google-TPU：https://zhuanlan.zhihu.com/p/646793355
+- [一文看懂国产AI芯片玩家](https://www.xckfsq.com/news/show.html?id=29187)
+- [深度 | 国产AI芯片，玩家几何](https://mp.weixin.qq.com/s?__biz=MzIwMzgzNTQ1Nw==&mid=2247599349&idx=1&sn=12459cbc418d3831d0c28e87ddb71b2f&scene=21#wechat_redirect)
 
 
 ### CUDA
 
 - [CUDA编程入门（一）CUDA编程模型](https://zhuanlan.zhihu.com/p/97044592)
 - [GPU编程（CUDA）](https://face2ai.com/program-blog/)
-
+- [CUDA编程入门极简教程](https://zhuanlan.zhihu.com/p/34587739)
 
 
 
@@ -256,7 +271,7 @@ KV Cache：
 
 ## LLM应用开发
 
-- 动手学大模型应用开发：https://github.com/datawhalechina/llm-universe
+- [动手学大模型应用开发](https://github.com/datawhalechina/llm-universe)
 - [langchain java](https://github.com/HamaWhiteGG/langchain-java)
 - [大模型主流应用RAG的介绍——从架构到技术细节](https://luxiangdong.com/2023/09/25/ragone/#/%E5%86%99%E5%9C%A8%E5%89%8D%E9%9D%A2)
 - [基于检索的大语言模型和应用（陈丹琦）](https://acl2023-retrieval-lm.github.io/)
