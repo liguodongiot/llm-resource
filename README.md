@@ -38,6 +38,9 @@ LLM全栈优质资源汇总
 - [Transformer的结构是什么样的？各个子模块各有什么作用？](https://blog.csdn.net/m0_54929869/article/details/118881804)
 - [以Transformer结构为基础的大模型参数量、计算量、中间激活以及KV cache剖析](https://mp.weixin.qq.com/s/3JYz6yrLeBr5ujip3LZe6w)
 - [Transformer 一起动手编码学原理](https://mp.weixin.qq.com/s/NgUNuWhvp2SqG-XWYv2PGQ)
+- [为什么transformer(Bert)的多头注意力要对每一个head进行降维？](http://www.sniper97.cn/index.php/note/deep-learning/note-deep-learning/4002/)
+
+
 
 源码：
 
@@ -47,10 +50,36 @@ LLM全栈优质资源汇总
 - [Transformer源码详解（Pytorch版本）](https://zhuanlan.zhihu.com/p/398039366)
 - [搞懂Transformer结构，看这篇PyTorch实现就够了](https://zhuanlan.zhihu.com/p/339207092)
 
-### GPT
+
+
+
+
+
+### GPT1
+
+
+
+
+### GPT2
+
+
+- GPT2 源码：https://github.com/huggingface/transformers/blob/main/src/transformers/models/gpt2/modeling_gpt2.py
+- GPT2 源码解析：https://zhuanlan.zhihu.com/p/630970209
+- nanoGPT：https://github.com/karpathy/nanoGPT/blob/master/model.py
+
+
+- 7.3 GPT2模型深度解析：http://121.199.45.168:13013/7_3.html
+- GPT（三）GPT2原理和代码详解: https://zhuanlan.zhihu.com/p/637782385
+- GPT2参数量剖析: https://zhuanlan.zhihu.com/p/640501114
+
+
+### ChatGPT
 
 - [State of GPT：大神Andrej揭秘OpenAI大模型原理和训练过程](https://mp.weixin.qq.com/s/zmEGzm1cdXupNoqZ65h7yg)
 - [OpenAI联合创始人亲自上场科普GPT，让技术小白也能理解最强AI](https://mp.weixin.qq.com/s/MD4WwwJLXm8rEm-sniX8Gw)
+
+
+
 
 
 ### GLM
@@ -68,7 +97,10 @@ LLM全栈优质资源汇总
 - [大模型分布式训练并行技术（八）-MOE并行](https://mp.weixin.qq.com/s?__biz=MzU3Mzg5ODgxMg==&mid=2247486145&idx=1&sn=299c28153b286465be26e18153c6db5d&chksm=fd3be392ca4c6a84be283dad80f584443302ea29fc95744f83727e7d9d68952d3a0f8b1b66d5&token=499509118&lang=zh_CN#rd)
 - [MoE架构模型爆发或将带飞国产AI芯片](https://mp.weixin.qq.com/s?__biz=MzU3Mzg5ODgxMg==&mid=2247488422&idx=1&sn=eeb18ec0f5b9e972df31d65e7db13f8f&chksm=fd3bfaf5ca4c73e38a696fe7b6f33a30af962fdddfabd92d74b1d06190442759aabe7b560f22&token=499509118&lang=zh_CN#rd)
 - [大模型的模型融合方法概述](https://mp.weixin.qq.com/s?__biz=MzU3Mzg5ODgxMg==&mid=2247487652&idx=1&sn=1bbf692b6e1dc6bae719c8e0a10293a0&chksm=fd3bf9f7ca4c70e16473a98d5408f6daea5e8c116a88cb3f41dfb00ffb7f6016874ee092224c&token=499509118&lang=zh_CN#rd)
-
+- [混合专家模型 (MoE) 详解](https://zhuanlan.zhihu.com/p/674698482)
+- [群魔乱舞：MoE大模型详解](https://zhuanlan.zhihu.com/p/677638939)
+- [大模型LLM之混合专家模型MoE（上-基础篇）](https://zhuanlan.zhihu.com/p/672712751)
+- [大模型LLM之混合专家模型MoE（下-实现篇）](https://zhuanlan.zhihu.com/p/673048264)
 
 
 ### 下一代大模型
@@ -77,6 +109,12 @@ LLM全栈优质资源汇总
 - https://next-gpt.github.io/
 - [Introduction to NExT-GPT: Any-to-Any Multimodal Large Language Model](https://www.kdnuggets.com/introduction-to-nextgpt-anytoany-multimodal-large-language-model)
 
+
+
+### 多模态大模型
+
+A Survey on Multimodal Large Language Models：https://arxiv.org/pdf/2306.13549
+Efficient-Multimodal-LLMs-Survey：https://github.com/lijiannuist/Efficient-Multimodal-LLMs-Survey
 
 
 ## LLM训练
@@ -112,6 +150,7 @@ LLM全栈优质资源汇总
 
 
 - [使用HuggingFace的Accelerate库加载和运行超大模型](https://zhuanlan.zhihu.com/p/605640431) : device_map、no_split_module_classes、 offload_folder、 offload_state_dict
+- [借助 PyTorch，Accelerate 如何运行超大模型](https://huggingface.co/blog/accelerate-large-models)
 - [使用 DeepSpeed 和 Accelerate 进行超快 BLOOM 模型推理](https://huggingface.co/blog/zh/bloom-inference-pytorch-scripts)
 - [LLM七种推理服务框架总结](https://zhuanlan.zhihu.com/p/653352979)
 - [LLM投机采样（Speculative Sampling）为何能加速模型推理](https://zhuanlan.zhihu.com/p/653734659)
@@ -140,6 +179,14 @@ KV Cache：
 - [大模型推理妙招—投机采样（Speculative Decoding）](https://zhuanlan.zhihu.com/p/651359908)
 
 
+
+
+### vLLM
+
+- [vLLM（六）源码解读下 @HelloWorld](https://zhuanlan.zhihu.com/p/694442998)
+- [猛猿：图解大模型计算加速系列：vLLM源码解析1，整体架构](https://zhuanlan.zhihu.com/p/691045737)
+- [LLM推理2：vLLM源码学习 @ akaihaoshuai ](https://zhuanlan.zhihu.com/p/643336063)
+- [大模型推理框架 vLLM 源码解析（一）：框架概览](https://zhuanlan.zhihu.com/p/681402162)
 
 
 ## LLM数据工程
@@ -301,14 +348,20 @@ KV Cache：
 ## 书籍
 
 - 大语言模型原理与工程 @杨青
-
-
+- [大语言模型从理论到实践](https://intro-llm.github.io/chapter/LLM-TAP.pdf) @张奇 ：https://intro-llm.github.io/
+- [动手学大模型](https://github.com/Lordog/dive-into-llms?tab=readme-ov-file)
 
 ## LLM实践
 
 - [minGPT @karpathy](https://github.com/karpathy/minGPT)
+- [llm.c @karpathy](https://github.com/karpathy/llm.c): LLM training in simple, raw C/CUDA
+- [LLM101n](https://github.com/karpathy/LLM101n)
+- [llama2.c](https://github.com/karpathy/llama2.c): Inference Llama 2 in one file of pure C
+- [nanoGPT](https://github.com/karpathy/nanoGPT)
 - [Baby-Llama2-Chinese](https://github.com/DLLXW/baby-llama2-chinese)
 - [从0到1构建一个MiniLLM](https://github.com/Tongjilibo/build_MiniLLM_from_scratch)
+- [gpt-fast](https://github.com/pytorch-labs/gpt-fast) 、[blog](https://pytorch.org/blog/accelerating-generative-ai-2/)
+- []()
 
 
 ## 大模型汇总资料
@@ -334,7 +387,9 @@ KV Cache：
 - [2023年6-11月大模型文章集锦](https://mp.weixin.qq.com/s?__biz=MzU3Mzg5ODgxMg==&mid=2247486480&idx=2&sn=b6b504f9d67a3cdad5ba0eb68eee647b&chksm=fd3be543ca4c6c55e0c2fd335de92103a1aee4e5631be34f06d7557463bc7e339fb63680ad54&scene=21&poc_token=HCwA9WWjTC-CNeedW8iQ1lZwSAwg4fwWFAVcUnai)
 
 
+## 其他
 
+- [Hugging Face 博客](https://github.com/huggingface/blog/tree/main)
 
 
 

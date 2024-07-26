@@ -7,6 +7,23 @@
 - [卷积核、滤波器、卷积层](https://www.cnblogs.com/h694879357/p/16609343.html)
 - [nn.Linear()和nn.Embedding()有什么区别？](https://www.zhihu.com/question/436748480)
 - [为什么NLP模型通常使用AdamW作为优化器，而不是SGD？](https://www.zhihu.com/question/616972642)
+- [Gradient Clipping理解](https://zhuanlan.zhihu.com/p/379032332)
+
+
+
+编译原理
+
+操作系统原理
+
+分布式系统原理
+
+线性代数
+
+概率论
+
+
+
+
 
 
 
