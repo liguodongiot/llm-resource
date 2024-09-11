@@ -13,7 +13,7 @@
 - 知识蒸馏(Knowledge Distillation) 经典之作：https://zhuanlan.zhihu.com/p/102038521
 - 知识蒸馏（Knowledge Distillation）简述（一）：https://zhuanlan.zhihu.com/p/81467832
 - 知识蒸馏（Knowledge Distillation）简述（二）：https://zhuanlan.zhihu.com/p/82129871
-- 模型蒸馏：https://github.com/DA-southampton/NLP_ability/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/%E6%A8%A1%E5%9E%8B%E8%92%B8%E9%A6%8F/%E4%BB%80%E4%B9%88%E6%98%AF%E7%9F%A5%E8%AF%86%E8%92%B8%E9%A6%8F.md
+- 知识蒸馏综述万字长文：https://github.com/DA-southampton/NLP_ability/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/%E6%A8%A1%E5%9E%8B%E8%92%B8%E9%A6%8F/%E4%BB%80%E4%B9%88%E6%98%AF%E7%9F%A5%E8%AF%86%E8%92%B8%E9%A6%8F.md
 - What is Knowledge Distillation? ：https://blog.roboflow.com/what-is-knowledge-distillation/
 - Knowledge Distillation: Principles, Algorithms, Applications：https://neptune.ai/blog/knowledge-distillation
 
@@ -21,6 +21,11 @@
 
 ### 模型剪枝
 
+- [Neural Network Pruning 101](https://towardsdatascience.com/neural-network-pruning-101-af816aaea61)
+- [模型剪枝技术原理及其发展现状和展望](https://zhuanlan.zhihu.com/p/134642289)
+- [模型剪枝（Model Pruning）](https://zhuanlan.zhihu.com/p/525071928)
+- [我总结了70篇论文的方法，帮你透彻理解神经网络的剪枝算法](https://zhuanlan.zhihu.com/p/408899259)
+- [深度模型剪枝](https://zhuanlan.zhihu.com/p/547203195)
 - [NLP（八）：大语言模型的稀疏化技术](https://zhuanlan.zhihu.com/p/615399255)
 - [LLM-Pruner: 大语言模型的结构化剪枝](https://zhuanlan.zhihu.com/p/630902012)
 

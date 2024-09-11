@@ -52,12 +52,7 @@ LLM全栈优质资源汇总
 
 
 
-
-
-
 ### GPT1
-
-
 
 
 ### GPT2
@@ -198,6 +193,8 @@ KV Cache：
 
 ## LLM压缩
 
+
+
 - [Awesome Model Quantization](https://github.com/htqin/awesome-model-quantization)
 - [Efficient-LLMs-Survey](https://github.com/AIoT-MLSys-Lab/Efficient-LLMs-Survey)
 - [Awesome LLM Compression](https://github.com/HuangOwen/Awesome-LLM-Compression)
@@ -332,12 +329,8 @@ KV Cache：
 
 - [MLOps Landscape in 2023: Top Tools and Platforms](https://neptune.ai/blog/mlops-tools-platforms-landscape)
 - [What Constitutes A Large Language Model Application?  ](https://cobusgreyling.medium.com/what-constitutes-a-large-language-model-application-bacf81103475)：LLM Functionality Landscape
-
-
-## AI System
-
-- [AI System @微软](https://github.com/microsoft/AI-System/tree/main)
 - [AI System @吃果冻不吐果冻皮](https://github.com/liguodongiot/ai-system)
+
 
 
 
@@ -361,7 +354,6 @@ KV Cache：
 - [Baby-Llama2-Chinese](https://github.com/DLLXW/baby-llama2-chinese)
 - [从0到1构建一个MiniLLM](https://github.com/Tongjilibo/build_MiniLLM_from_scratch)
 - [gpt-fast](https://github.com/pytorch-labs/gpt-fast) 、[blog](https://pytorch.org/blog/accelerating-generative-ai-2/)
-- []()
 
 
 ## 大模型汇总资料
@@ -376,6 +368,7 @@ KV Cache：
 - [Awesome Knowledge Distillation of LLM Papers](https://github.com/Tebmer/Awesome-Knowledge-Distillation-of-LLMs)
 - [Awasome-Pruning @ghimiredhikura](https://github.com/ghimiredhikura/Awasome-Pruning)
 - [Awesome-Pruning @he-y](https://github.com/he-y/Awesome-Pruning)
+- [awesome-pruning @hrcheng1066](https://github.com/hrcheng1066/awesome-pruning)
 - [Awesome-LLM-Inference](https://github.com/DefTruth/Awesome-LLM-Inference)
 
 
