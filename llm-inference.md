@@ -9,7 +9,7 @@
 - 语言大模型推理性能工程：最佳实践：https://zhuanlan.zhihu.com/p/663282469
 - Reproducible Performance Metrics for LLM inference：https://www.anyscale.com/blog/reproducible-performance-metrics-for-llm-inference
 - 可复现的语言大模型推理性能指标：https://zhuanlan.zhihu.com/p/667612787
-
+- [从零实现AI推理引擎](https://www.zhihu.com/column/c_1760127081235820544)
 
 
 

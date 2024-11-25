@@ -138,7 +138,17 @@ Efficient-Multimodal-LLMs-Survey：https://github.com/lijiannuist/Efficient-Mult
 - [MOSS-RLHF](https://github.com/OpenLMLab/MOSS-RLHF)
 - [模型调优（RLHF/DPO/ORPO）- 终极指南](https://zhuanlan.zhihu.com/p/692594519)
 - [DPO: Direct Preference Optimization 论文解读及代码实践](https://zhuanlan.zhihu.com/p/642569664)
+- [强化学习入门：基本思想和经典算法](https://imzhanghao.com/2022/02/10/reinforcement-learning/)
+- [人人都能看懂的PPO原理与源码解读](https://zhuanlan.zhihu.com/p/677607581)
+- [关于Instruct GPT复现的一些细节与想法](https://zhuanlan.zhihu.com/p/609078527)
 
+
+paper:
+
+- [LLM对齐综述](https://arxiv.org/pdf/2407.16216)
+- [RLHF-PPO](https://arxiv.org/pdf/2203.02155)
+- [DPO](https://arxiv.org/pdf/2305.18290)
+- [ORPO](https://arxiv.org/pdf/2403.07691)
 
 
 ## LLM推理
