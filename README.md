@@ -39,7 +39,7 @@ LLM全栈优质资源汇总
 - [以Transformer结构为基础的大模型参数量、计算量、中间激活以及KV cache剖析](https://mp.weixin.qq.com/s/3JYz6yrLeBr5ujip3LZe6w)
 - [Transformer 一起动手编码学原理](https://mp.weixin.qq.com/s/NgUNuWhvp2SqG-XWYv2PGQ)
 - [为什么transformer(Bert)的多头注意力要对每一个head进行降维？](http://www.sniper97.cn/index.php/note/deep-learning/note-deep-learning/4002/)
-
+- [Decoder-Only Transformers: The Workhorse of Generative LLMs](https://cameronrwolfe.substack.com/p/decoder-only-transformers-the-workhorse)
 
 
 源码：
@@ -112,9 +112,18 @@ A Survey on Multimodal Large Language Models：https://arxiv.org/pdf/2306.13549
 Efficient-Multimodal-LLMs-Survey：https://github.com/lijiannuist/Efficient-Multimodal-LLMs-Survey
 
 
+### 其他
+
+- [大模型时代的归一化技术：解密Transformer架构中Pre-Norm与RMSNorm的黄金组合](https://blog.csdn.net/qq_54445177/article/details/147096307)
+
+
+
+
+
 ## LLM训练
 
 
+- [分布式训练 Playbook](https://huggingface.co/spaces/nanotron/ultrascale-playbook)
 - [OPT-175B是如何炼成的](https://zhuanlan.zhihu.com/p/622061951)
 - [全网最全-混合精度训练原理](https://zhuanlan.zhihu.com/p/441591808)
 - [飞桨分布式训练4D混合并行可训千亿级AI模型](https://ai.baidu.com/forum/topic/show/987996)
@@ -141,7 +150,9 @@ Efficient-Multimodal-LLMs-Survey：https://github.com/lijiannuist/Efficient-Mult
 - [强化学习入门：基本思想和经典算法](https://imzhanghao.com/2022/02/10/reinforcement-learning/)
 - [人人都能看懂的PPO原理与源码解读](https://zhuanlan.zhihu.com/p/677607581)
 - [关于Instruct GPT复现的一些细节与想法](https://zhuanlan.zhihu.com/p/609078527)
-
+- [【RLHF】RL 究竟是如何与 LLM 做结合的？](https://zhuanlan.zhihu.com/p/675329917)
+- [【RLHF】想训练ChatGPT？得先弄明白Reward Model怎么训（附源码）](https://zhuanlan.zhihu.com/p/595579042)
+- [Reinforcement Learning from Human Feedback 全家桶（RL 侧）](https://zhuanlan.zhihu.com/p/700149886)
 
 paper:
 
@@ -165,8 +176,7 @@ paper:
 - NLP（十八）：LLM 的推理优化技术纵览：https://zhuanlan.zhihu.com/p/642412124
 - ​揭秘NVIDIA大模型推理框架：TensorRT-LLM：https://zhuanlan.zhihu.com/p/680808866
 - [如何生成文本: 通过 Transformers 用不同的解码方法生成文本](https://huggingface.co/blog/zh/how-to-generate) | [How to generate text: using different decoding methods for language generation with Transformers](https://huggingface.co/blog/how-to-generate)
-
-
+- [DeepSeek-V3 / R1 推理系统概览](https://zhuanlan.zhihu.com/p/27181462601)
 
 
 
@@ -261,6 +271,9 @@ KV Cache：
 
 ## AI框架
 
+
+
+
 ### PyTorch
 
 - [PyTorch 源码解读系列](https://zhuanlan.zhihu.com/p/328674159) @ OpenMMLab 团队
@@ -311,6 +324,7 @@ KV Cache：
 ### CUDA
 
 - [CUDA编程入门（一）CUDA编程模型](https://zhuanlan.zhihu.com/p/97044592)
+- [CUDA编程入门（二）GPU硬件基础](https://zhuanlan.zhihu.com/p/97131966)
 - [GPU编程（CUDA）](https://face2ai.com/program-blog/)
 - [CUDA编程入门极简教程](https://zhuanlan.zhihu.com/p/34587739)
 
@@ -364,6 +378,8 @@ KV Cache：
 - [Baby-Llama2-Chinese](https://github.com/DLLXW/baby-llama2-chinese)
 - [从0到1构建一个MiniLLM](https://github.com/Tongjilibo/build_MiniLLM_from_scratch)
 - [gpt-fast](https://github.com/pytorch-labs/gpt-fast) 、[blog](https://pytorch.org/blog/accelerating-generative-ai-2/)
+- [CSE 234: Data Systems for Machine Learning](https://hao-ai-lab.github.io/cse234-w25/)
+- [DSC 291: Machine Learning Systems](https://hao-ai-lab.github.io/dsc291-s24/)
 
 
 ## 大模型汇总资料
@@ -393,9 +409,6 @@ KV Cache：
 ## 其他
 
 - [Hugging Face 博客](https://github.com/huggingface/blog/tree/main)
-
-
-
 
 
 
