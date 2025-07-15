@@ -255,6 +255,8 @@ KV Cache：
 - [NLP（十八）：LLM 的推理优化技术纵览](https://zhuanlan.zhihu.com/p/642412124)
 - [并行计算3：并行计算模型](https://zhuanlan.zhihu.com/p/568947162)
 - [大模型“幻觉”，看这一篇就够了 | 哈工大华为出品](https://www.thepaper.cn/newsDetail_forward_25344873)
+- [深入理解语言模型的困惑度(perplexity)](https://zhuanlan.zhihu.com/p/686808564)
+
 
 
 **safetensors**：

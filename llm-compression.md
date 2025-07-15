@@ -41,7 +41,11 @@
 - [模型量化了解一下？](https://zhuanlan.zhihu.com/p/132561405)
 
 
+- [基于Triton实现AWQ量化算子](https://zhuanlan.zhihu.com/p/946441556)
+- [AWQ 量化详解](https://www.armcvai.cn/2024-11-01/llm-quant-awq.html)
 
+- [Accelerating Triton Dequantization Kernels for GPTQ](https://docs.pytorch.org/blog/accelerating-triton/)
+- [使用 Triton 实现 GPTQ 计算：优化大规模矩阵乘法](https://zhuanlan.zhihu.com/p/12998723203)
 
 
 
